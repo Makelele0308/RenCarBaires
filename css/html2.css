@@ -1,0 +1,15 @@
+/* Agrega estos estilos para la colocación de los elementos en el footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .col-md-6 {
+    width: 45%;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}

@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.call-to-action {
+    position: absolute;
+    top: 0; 
+    right: 30%; 
+    margin-top: 800px;
+}
+
+
+/* Estilos para la sección Sobre Nosotros */
+.about-us {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.about-us .about-text {
+    padding: 0 30px;
+}
+
+.about-us h2 {
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+
+
+
+/* Estilos mejorados para la sección de Planes de Alquiler */
+.pricing-plans {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.pricing-plans h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.pricing-plans .card {
+    border: none;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.pricing-plans .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plans .card-header {
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pricing-plans .card-body {
+    padding: 30px;
+}
+
+.pricing-plans .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pricing-plans ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-plans ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.pricing-plans .btn {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pricing-plans .btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Estilos mejorados para las Pastillas de Información */
+.information-cards .card {
+    border: none;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.information-cards .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.information-cards .card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.information-cards .card-body {
+    padding: 20px;
+}
+
+.information-cards .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.information-cards .card-text {
+    font-size: 16px;
+}
+
+.information-cards .btn {
+    border-radius: 0;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.information-cards .btn:hover {
+    background-color: #0056b3;
+}
+
+
+.information-cards .card {
+    margin-bottom: 20px;
+}
+
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+}
+
+
+/* Estilos mejorados para la sección de Nuestros Vehículos */
+.product-gallery .card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.product-gallery .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-gallery .card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.product-gallery .card-body {
+    padding: 20px;
+}
+
+.product-gallery .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-gallery .card-text {
+    font-size: 16px;
+}
+
+.product-gallery .btn {
+    border-radius: 0;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.product-gallery .btn:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer .social-icons a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.footer .social-icons img {
+    transition: transform 0.3s;
+}
+
+.footer .social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: black;
+}
